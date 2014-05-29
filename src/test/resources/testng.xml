@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5" data-provider-thread-count="1">
+	<test name="Test1">
+		<parameter name="path" value="/"/>
+		<classes>
+		 <class name="ru.test.selenium.testcheckcapslogin.LoginAdminAllCapsFalse"/>
+		 <class name="ru.test.selenium.testcheckcapslogin.LoginAdminAllCapsTrue"/>
+		
+		
+		 <class name="ru.test.selenium.testusers.LoginAdmin"/>
+		 <class name="ru.test.selenium.testusers.CreateUser1"/>
+		 <class name="ru.test.selenium.testusers.CreateUser2"/>
+		 <class name="ru.test.selenium.testusers.CreateUser3"/>
+		 <class name="ru.test.selenium.testusers.RemoveAllUser"/>
+		 <class name="ru.test.selenium.testusers.LogOutAdmin"/>
+		
+		 <class name="ru.test.selenium.testfilms.LoginAdmin"/>
+		 <class name="ru.test.selenium.testfilms.CreateFilmTitle1"/>
+		 <class name="ru.test.selenium.testfilms.CreateFilmTitle2"/>
+		 <class name="ru.test.selenium.testfilms.CreateFilmTitle3"/>
+		 <class name="ru.test.selenium.testfilms.DeleteAllFilms"/>
+		 <class name="ru.test.selenium.testfilms.LogOutAdmin"/>
+			
+				 </classes>
+	</test>  
+</suite>
